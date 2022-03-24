@@ -1,0 +1,290 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.parent{
+    background-color: #eee;
+    display: grid;
+    gap:10px 10px;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr 1fr ;
+    grid-template-areas: "os os as sh" "mi mm mm sh" "mi ezz ezz sh" "mos-s ibrahim  gamal eman" ;
+    padding:30px;
+}
+
+/* osama */
+.osama{
+    grid-area: os;
+    background-color: white;
+    padding:6px;
+    border-bottom:2px solid darkorange;
+}
+.osama span{
+    color:gray;
+    display: block;
+    margin-bottom:15px;
+    font-size:13px;
+}
+
+.osama .first{
+    font-weight: bold;
+    font-size:13px;
+}
+
+.osama .first+p{
+    font-size:13px;
+    margin-top:10px;
+}
+/* end osama */
+
+
+/* ahmed */
+.ahmed{
+    grid-area: as;
+    background-color: white;
+    padding:10px;
+    border-bottom:2px solid darkorange;
+}
+
+.ahmed span{
+    color:gray;
+    display: block;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-size:10px;
+}
+
+.ahmed .first{
+    font-weight: bold;
+    font-size:13px;
+    margin-bottom:10px;
+}
+
+.ahmed .first+p{
+    font-size:13px;
+}
+/* end ahmed */
+
+
+/* strat shady */
+.shady{
+    grid-area: sh;
+    background-color: black;
+    color:white;
+    padding:10px;
+    border-bottom:2px solid darkorange;
+ 
+}
+
+.shady span{
+    color:gray;
+    display: block;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-size:10px;
+}
+
+.shady .first{
+    font-weight: bold;
+    font-size:13px;
+}
+
+.shady .first+p{
+    font-size:13px;
+    margin-top:20px;
+}
+/* end shady */
+
+/* start mohamed ibrahim */
+.mohamed-ib{
+    grid-area:mi;
+    background-color:white;
+    color:black;
+    padding:10px;
+    border-bottom:2px solid darkorange;
+}
+
+.mohamed-ib span{
+    color:gray;
+    display: block;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-size:10px;
+}
+
+.mohamed-ib .first{
+    font-weight: bold;
+    font-size:13px;
+}
+
+.mohamed-ib .first+p{
+    font-size:13px;
+    margin-top:20px;
+}
+/* end mohamed ibrahim */
+
+/* start mahmoud mohamed*/
+.mahmoud-m{
+    grid-area:mm ;
+    background-color:black;
+    color:white;
+    padding:10px;
+    border-bottom:2px solid darkorange;
+} 
+
+.mahmoud-m span{
+    color:gray;
+    display: block;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-size:10px;
+}
+
+.mahmoud-m .first{
+    font-weight: bold;
+    font-size:13px;
+}
+
+.mahmoud-m .first+p{
+    font-size:13px;
+    margin-top:20px;
+}
+/* end mahmoud mohamed*/
+
+/* start ezz  */
+.ezz{
+    grid-area:ezz;
+    background-color:white;
+    padding:10px;
+    border-bottom:2px solid darkorange;
+}
+
+.ezz span{
+    color:gray;
+    display: block;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-size:10px;
+}
+
+.ezz .first{
+    font-weight: bold;
+    font-size:13px;
+}
+
+.ezz .first+p{
+    font-size:13px;
+    margin-top:20px;
+}
+/* end ezz  */
+
+/* start mohamed sayed */
+.mo-s{
+    grid-area:mos-s ;
+    background-color: white;
+    padding:10px;
+    border-bottom:2px solid darkorange;
+}
+
+.mo-s span{
+    color:gray;
+    display: block;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-size:10px;
+}
+
+.mo-s .first{
+    font-weight: bold;
+    font-size:13px;
+}
+
+.mo-s .first+p{
+    font-size:13px;
+    margin-top:20px;
+}
+
+/* end mohamed sayed */
+
+/* strat ibrahim sayed */
+.ibrahim{
+    grid-area: ibrahim;
+    background-color:white;
+    border-bottom: 2px solid darkorange;
+    padding:10px;
+    }
+
+    .ibrahim span{
+        color:gray;
+        display: block;
+        margin-top:5px;
+        margin-bottom:10px;
+        font-size:10px;
+    }
+    
+    .ibrahim .first{
+        font-weight: bold;
+        font-size:13px;
+    }
+    
+    .ibrahim .first+p{
+        font-size:13px;
+        margin-top:20px;
+    }
+/* end ibrahim sayed */
+
+/* start gamal */
+.gamal {
+    grid-area: gamal;
+    background-color:white;
+    padding:10px;
+    border-bottom:2px solid darkorange;
+}
+
+.gamal span{
+    color:gray;
+    display: block;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-size:10px;
+}
+
+.gamal .first{
+    font-weight: bold;
+    font-size:13px;
+}
+
+.gamal .first+p{
+    font-size:13px;
+    margin-top:20px;
+}
+/* end gamal */
+
+/* start eman */
+.eman{
+    grid-area: eman;
+    background-color:white;
+    border-bottom: 2px solid darkorange;
+    padding:10px;
+}
+
+.eman span{
+    color:gray;
+    display: block;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-size:10px;
+}
+
+.eman .first{
+    font-weight: bold;
+    font-size:13px;
+}
+
+.eman .first+p{
+    font-size:13px;
+    margin-top:20px;
+}
+/* end eman */
